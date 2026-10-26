@@ -1,22 +1,202 @@
-# Valentina-promet-radovis
-Добредојдовте во Валентина Промет – Радовиш!
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Promet - Radovish | Gradezhni Materijali</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #1e293b;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f59e0b;
+        }
+        .nav-contact a {
+            color: #fff;
+            background: #f59e0b;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .nav-contact a:hover {
+            background: #d97706;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #f59e0b;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+        .btn-call {
+            display: inline-block;
+            background: #22c55e;
+            color: white;
+            padding: 0.8rem 2rem;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        .btn-call:hover {
+            background: #16a34a;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 1rem;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #1e293b;
+        }
+        .services-grid, .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-bottom: 1rem;
+            color: #1e293b;
+        }
+        .contact-section {
+            background: #1e293b;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .contact-info {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .contact-info a {
+            color: #f59e0b;
+            text-decoration: none;
+        }
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
 
-Нудиме продажба, достава и истовар на градежни материјали во Радовиш и околината.
+    <header>
+        <div class="logo">Valentina Promet</div>
+        <div class="nav-contact">
+            <a href="tel:075414930">📞 075-414-930</a>
+        </div>
+    </header>
 
-Наши услуги
+    <section class="hero">
+        <h1>Valentina Promet - Radovish</h1>
+        <p>Vashiot siguren partner za prodazba, dostava i istovar na site vidovi gradezhni materijali vo Radovish i okolinata.</p>
+        <a href="tel:075414930" class="btn-call">Porachajte Vednsh</a>
+    </section>
 
-Продажба на градежни материјали
-Достава на материјали
-Истовар на материјали
-Локација
+    <div class="container">
+        <h2 class="section-title">Nashi Uslugi</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>🛒 Prodazba</h3>
+                <p>Golemu asortiman na gradezhni materijali so proveren kvalitet za vashite gradbi i renoviranja.</p>
+            </div>
+            <div class="card">
+                <h3>🚚 Dostava</h3>
+                <p>Brza i sigurna dostava na posocena adresa so sopstven prevoz do site mesta vo regionot.</p>
+            </div>
+            <div class="card">
+                <h3>🏗️ Istovar</h3>
+                <p>Profesionalen i vnimatelen istovar na materijalite direktno na teren so kran/digalka.</p>
+            </div>
+        </div>
+    </div>
 
-Радовиш, Северна Македонија
+    <div class="container" style="background: #fff; border-radius: 8px; margin-top: 2rem; margin-bottom: 2rem;">
+        <h2 class="section-title">Asortiman na Materijali</h2>
+        <div class="products-grid" style="padding-bottom: 2rem;">
+            <div class="card" style="background: #f8f9fa;">
+                <h3>Cement i Var</h3>
+                <p>Vrejkji cement, var i drugi vrsti svrzuvachki sredstva.</p>
+            </div>
+            <div class="card" style="background: #f8f9fa;">
+                <h3>Tuli i Blokovi</h3>
+                <p>Glineni tuli, betonski blokovi i pregradni elementi.</p>
+            </div>
+            <div class="card" style="background: #f8f9fa;">
+                <h3>Zhelezo i Armatura</h3>
+                <p>Armaturni mrezhi, rebrasti i mazni shipki za cvrsta gradba.</p>
+            </div>
+            <div class="card" style="background: #f8f9fa;">
+                <h3>Pesok i Chakal</h3>
+                <p>Razen, droben i krupenski pesok za sekakvi gradezhni potrebi.</p>
+            </div>
+        </div>
+    </div>
 
-📞 Контакт
+    <section class="contact-section">
+        <h2>Kontaktirajte ne</h2>
+        <p class="contact-info">📍 Lokacija: Radovish, Severna Makedonija</p>
+        <p class="contact-info">📞 Telefoni: <a href="tel:075414930">075-414-930</a> / <a href="tel:032630603">032-630-603</a></p>
+        <p style="margin-top: 1.5rem; color: #cbd5e1;">Za narachki i informacii, kontaktirajte ne na eden od telefonskite broevi vo sekoe vreme!</p>
+    </section>
 
-Телефон: 075-414-930/032-630-603
+    <footer>
+        <p>&copy; 2026 Valentina Promet - Radovish. Site prava se zadrzhani.</p>
+    </footer>
 
-За нарачки и информации за градежни материјали, контактирајте нè на 
-eden od telefonskite broevi.
+</body>
+</html>
 
-📍 Радовиш, Северна Македонија
+
